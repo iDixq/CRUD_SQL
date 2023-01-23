@@ -1,0 +1,17 @@
+--USE $_POST
+
+CREER UN FORMULAIRE AVEC UN CHAMP (NOM , PRENOM )
+AJOUTER UN BUTTON DE VALIDATION POUR VOTRE FORMULAIRE
+QUAND ON CLIQUE SUR LE BUTTON DE VALIDATION (SEULEMENT SI ON CLIQUE) DU FORMULAIRE. 
+VOUS DEVRIEZ AFFICHER "Bonjour (Nom) & (Prenom)" 
+
+ETAPE 2 
+
+Ajouter password & confirm password et faite en sorte que le message bonjour (nom) & (prenom)
+s'affiche seulement si les deux password corespond.
+
+ETAPE 3 
+
+Créer une BDD "message" avec une table "users" qui contient un champ id, prénom, nom, password.
+vous devez faire en sorte d'insérer les saisies de votre formulaire dans la table users de votre BDD "message"
+pour ça il faudra mettre en place une config PDO pour se connecter à la bdd.

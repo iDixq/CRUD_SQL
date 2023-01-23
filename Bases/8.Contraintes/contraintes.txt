@@ -1,0 +1,15 @@
+------------------  CONTRAINTE --------------------
+
+Action et Restrict :
+Ils sont pareils, Si l'on essaye de supprimer une valeur référencée par une clé étrangère, 
+l'action est avortée et on obtient une erreur.
+
+En cascade:
+Si on supprime un fournisseur (parent), cela supprimera également les articles (enfant) de ce fournisseur.
+
+SET NULL : Inscrit NULL (dans la table 'article') si le fournisseur a été supprimé 
+
+CASCADE = repercution
+SET NULL = inscrit NULL
+NO ACTION = effectué puis restauré
+RESTRICT = restrictif, interdit

@@ -1,0 +1,19 @@
+----------------------------- MySQL
+
+
+MySQL esrt ce qu'on appelle un système de gestion de bases de données.
+Exemple, elle va stocker tout un ensemble de données, string, integer, date...
+
+
+
+SQL est un langage qui permet de manipuler le système MySQL.
+Il va permettre, d'ajouter, de modifier, supprimer des données au travers d'instructions précises.
+SQL communique également parfaitement avec PHP.
+
+Termes : 
+MCD = Model conceptuel de données (plan de construction)
+SGBD = Système de gestion de bases de données (exploite les données)
+SGBDR = Base de données relationnelles 
+BDD = Base de données (emplacement des données sauvegardées)
+SQL = Structured Query Langage (langage de requêtes)
+

@@ -1,0 +1,1 @@
+INSERT INTO employes VALUES(0, "Lucas", "Hebrard", "m", "Tryharder", "2023-01-13", "10000");
